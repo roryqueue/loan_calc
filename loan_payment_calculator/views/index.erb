@@ -1,0 +1,37 @@
+
+<head>
+  <title>Student Loan Calculator</title>
+  <link href="app.css" media="screen" rel="stylesheet"/>
+</head>
+
+
+<body class="everything">
+
+  <div class="loan_input">
+    <h1 class="loan_input_header">Loan Repayment Calculator</h1>
+
+    <form class="loan_input_body" action="/results" method="post">
+      <label for="year_one_principal">What will you be borrowing your freshman year? $</label>
+      <input type="text" id="year_one_principal" name="year_one_principal" /><br>
+
+      <label for="year_two_principal">What will you be borrowing your sophomore year? $</label>
+      <input type="text" id="year_two_principal" name="year_two_principal"><br>
+
+      <label for="year_three_principal">What will you be borrowing your junior year? $</label>
+      <input type="text" id="year_three_principal" name="year_three_principal" /><br>
+
+      <label for="year_four_principal">What will you be borrowing your senior year? $</label>
+      <input type="text" id="year_four_principal" name="year_four_principal" /><br>
+
+      <label for="annual_interest_rate">What will the annual_rate on your student loan be? (%)</label>
+      <input type="text" id="annual_interest_rate" name="annual_interest_rate" /><br>
+
+      <label for="years">Over how many years will you be paying back your loan? </label>
+      <input type="text" id="years" name="years" /><br>
+
+      <input class="loan_submit_button" type="submit" value="Tell me about my payments!"/>
+
+    </form>
+
+  </div>
+</body>

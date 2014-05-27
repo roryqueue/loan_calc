@@ -1,0 +1,22 @@
+.everything {
+  background-color: #99CCFF;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  color: #330066;
+}
+
+.loan_input_header {
+text-align: right;
+margin-right: 33%;
+}
+
+.loan_input_body {
+text-align: right;
+margin-right: 30%;
+}
+
+.loan_submit_button {
+  background-color: #FFCC99;
+  border: 2px solid;
+  border-color: #330066;
+  border-radius: 8px;
+}
